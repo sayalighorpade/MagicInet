@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget31"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inside"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Password :"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" >
+    </TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/black" />
+
+    <TableLayout
+        android:id="@+id/widget32"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/widget33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Old Password"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textSize="18sp" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/widget37"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:text="New Password"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:password="true"
+                android:textSize="18sp" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/widget39"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Confirm Password"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:textSize="18sp" 
+                android:layout_marginLeft="15dp">
+            </EditText>
+        </TableRow>
+    </TableLayout>
+      <Button
+            android:id="@+id/button1"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Change Password" >
+        </Button>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Back" >
+        </Button>
+    
+
+</LinearLayout>

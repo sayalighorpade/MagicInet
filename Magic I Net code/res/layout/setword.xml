@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:gravity="center"
+	android:paddingTop="20dp"
+	android:paddingRight="20dp"
+	android:paddingBottom="20dp"
+	android:paddingLeft="20dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inside"
+    >
+	<EditText
+		android:id="@+id/attentionWord"
+		android:hint="Set attention word"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		 />
+	<Button
+		android:id="@+id/save"
+		android:background="@drawable/asd"
+		android:text="Save"
+		android:layout_marginRight="80dp"
+		android:layout_marginLeft="80dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textColor="#000000"
+		android:textStyle="bold"
+		
+		/>
+</LinearLayout>
+

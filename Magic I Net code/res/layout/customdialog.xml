@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:background="#001100"
+    android:orientation="vertical" >
+
+    <TextView
+        
+        
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Custom Dialog"
+        android:textSize="18dp" />
+
+    <!-- <Button
+        android:id="@+id/restart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Restart Game"
+        android:onClick="click"
+        
+         /> -->
+
+</LinearLayout>

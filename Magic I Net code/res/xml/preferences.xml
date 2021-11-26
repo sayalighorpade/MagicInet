@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:layout="@drawable/inside">
+
+    <PreferenceCategory android:title="serial Setting" >
+        <EditTextPreference
+            android:id="@+id/serialNo"
+            android:key="keyword"
+            android:summary="Set the Serial Number of The SIM"
+            android:title="Serial Number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Option" >
+        <CheckBoxPreference
+            android:key="parent_checkbox_preference"
+            android:title="Enable Number" />
+
+        <EditTextPreference
+            android:dependency="parent_checkbox_preference"
+            android:inputType="number"
+            android:key="number1"
+            android:summary="set the alternate phone number "
+            android:title="NUMBER 1st :" />
+        <EditTextPreference
+            android:dependency="parent_checkbox_preference"
+            android:inputType="textPassword"
+            android:key="password"
+            android:summary="its for private"
+            android:title="Password" />
+        <EditTextPreference
+            android:dependency="parent_checkbox_preference"
+            android:key="number2"
+            android:summary="set alternate phone number 2"
+            android:title="NUMBER 2nd:" />
+        <EditTextPreference
+            android:dependency="parent_checkbox_preference"
+            android:key="number3"
+            android:summary="set alternate phone number 3"
+            android:title="NUMBER 3rd:" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

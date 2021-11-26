@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inside"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget31"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Registration Page" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/widget45"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp" >
+
+            <TextView
+                android:id="@+id/widget56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username:" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget47"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp" >
+
+            <TextView
+                android:id="@+id/widget60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:layout_marginLeft="10sp"
+                android:textSize="18sp" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget62"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp" >
+
+            <TextView
+                android:id="@+id/widget63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C.Password:" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:password="true"
+                android:textSize="18sp" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget65"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Accept all the terms and Conditions" >
+            </CheckBox>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30px"
+            android:background="#ff3399" />
+
+        <LinearLayout
+            android:id="@+id/widget67"
+            android:layout_marginTop="10sp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:background="@drawable/signupb" >
+            </Button>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:background="@drawable/exit_button" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
